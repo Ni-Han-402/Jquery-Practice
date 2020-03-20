@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner{
+    height: 500px;
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#380b28+0,7db9e8+100&1+0,0+100 */
+background: -moz-linear-gradient(-45deg,  rgba(56,11,40,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(56,11,40,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(56,11,40,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#380b28', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.content{
+
+    text-align: center;
+    padding-top: 225px;
+}
+.content h1{
+    color: #fff;
+}
+.content span{
+    color: red;
+}
+.parallax-1 img{
+    width: 100%;
+    height: 400px;
+}
+
+.aos-js{
+    background-color: teal;
+}
+.aos-box{
+
+    height: 300px;
+    width: 635px;
+    font-size: 50px;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 50px;
+}
